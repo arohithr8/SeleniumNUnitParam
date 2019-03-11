@@ -15,8 +15,8 @@ namespace SeleniumNUnitParam
         [Test]
         public void GoogleTest()
         {
-            IWebDriver Driver = new ChromeDriver();
-            //IWebDriver driver = new ChromeDriver("C:\tools\selenium\chromedriver.exe");
+            //IWebDriver Driver = new ChromeDriver();
+            IWebDriver Driver = new ChromeDriver("C:\tools\selenium\chromedriver.exe");
             //IWebDriver driver = new ChromeDriver(@”C:\tools\selenium\chromedriver.exe”);
             Driver.Navigate().GoToUrl("http://www.google.com");
             Driver.FindElement(By.Name("q")).SendKeys("Selenium");
@@ -30,8 +30,8 @@ namespace SeleniumNUnitParam
         [Test]
         public void ExecuteAutomationTest()
         {
-            IWebDriver Driver = new ChromeDriver();
-            //IWebDriver driver = new ChromeDriver("C:\tools\selenium\chromedriver.exe");
+            //IWebDriver Driver = new ChromeDriver();
+            IWebDriver Driver = new ChromeDriver("C:\tools\selenium\chromedriver.exe");
             //IWebDriver driver = new ChromeDriver(@”C:\tools\selenium\chromedriver.exe”);
             Driver.Navigate().GoToUrl("http://executeautomation.com/demosite/Login.html");
             Driver.FindElement(By.Name("UserName")).SendKeys("admin");
