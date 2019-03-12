@@ -119,7 +119,7 @@
   <Target Name="ZipOutputPath" AfterTargets="Build">
         <ZipDirectory
             SourceDirectory="$(OutputPath)"
-            DestinationFile="C:\R_TosaveZipFromBuild\output.zip" />
+            DestinationFile="bin\output.zip" />
     </Target>
   
   
