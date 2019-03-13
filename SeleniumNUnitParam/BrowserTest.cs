@@ -29,7 +29,7 @@ namespace SeleniumNUnitParam
         }
         
         [Test]
-        public void GoogleTest()
+        public void GoogleTest2()
         {
             Driver.Navigate().GoToUrl("http://www.rohithrk.com");
             Driver.FindElement(By.Name("q")).SendKeys("Selenium");
