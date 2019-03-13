@@ -28,7 +28,7 @@ namespace SeleniumNUnitParam
 
         }
         
-        [Test]
+        /*[Test]
         public void GoogleTest2()
         {
             Driver.Navigate().GoToUrl("http://www.rohithrk.com");
@@ -39,7 +39,7 @@ namespace SeleniumNUnitParam
                                             "The text selenium doest not exist");
 
         }
-
+        */
         [Test]
         public void ExecuteAutomationTest()
         {
