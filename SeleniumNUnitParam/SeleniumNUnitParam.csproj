@@ -115,13 +115,13 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
+  <!--
   <Target Name="ZipOutputPath" AfterTargets="Build">
         <ZipDirectory
             SourceDirectory="$(OutputPath)"
             DestinationFile="bin\output.zip" />
     </Target>
-  
+   -->
   
 
 </Project>
